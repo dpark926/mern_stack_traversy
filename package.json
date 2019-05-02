@@ -2,9 +2,6 @@
   "name": "mern_stack_traversy",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "8.4.0"
-  },
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
