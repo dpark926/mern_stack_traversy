@@ -15,7 +15,7 @@ export const getItems = () => dispatch => {
 
 export const addItem = item => dispatch => {
   axios
-    .post("/api/itemsss", item)
+    .post("/api/items", item)
     .then(res => dispatch({ type: ADD_ITEM, payload: res.data }));
 
   // return {
